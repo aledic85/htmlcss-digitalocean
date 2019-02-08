@@ -1,0 +1,75 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+[color="blue"] {
+  background-color: #0069ff;
+}
+
+[color="grey"] {
+  background-color: #f3f5f9;
+}
+
+/* NAVBAR */
+
+nav {
+  height: 65px;
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+
+nav a {
+  color: rgba(3,27,78,.7);
+}
+
+nav button {
+  border: 1px solid #0069ff;
+  border-radius: 5px;
+  color: #0069ff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 11px 16px 8px;
+  font-size: 14px;
+}
+
+.hamb-menu {
+  font-size: 30px;
+  justify-content: flex-end;
+}
+
+/* PRIMA SEZIONE */
+
+.sect-1 {
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg");
+  background-size: cover;
+  min-height: 800px;
+}
+
+.sect-1 h1 {
+  font-size: 58px;
+  line-height: 1.18;
+}
+
+.sect-1 p {
+  font-size: 20px;
+  opacity: .8;
+}
+
+.sign-up{
+  background: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+@media screen and (max-width:992px) {
+  .sect-1 h1 {
+    font-size: 40px;
+    line-height: 1.18;
+  }
+
+  .sect-1 p {
+    font-size: 15px;
+    opacity: .8;
+  }
+}
