@@ -62,6 +62,38 @@ nav button {
   padding: 40px;
 }
 
+/* TERZA SEZIONE */
+
+.sect-3 .p-t {
+  font-size: 20px;
+}
+
+.brd-l {
+  width: 50px;
+  height: 50px;
+  border-left: 2px solid #e5e8ed;
+}
+
+.brd-l h6 {
+  line-height: 50px;
+  opacity: .5;
+}
+
+.brd-l:first-child > h6 {
+  opacity: 1;
+}
+
+.brd-l:first-child {
+  border-left: 2px solid blue;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+/* QUARTA SEZIONE */
+
 @media screen and (max-width:992px) {
   .sect-1 h1 {
     font-size: 40px;
@@ -71,5 +103,13 @@ nav button {
   .sect-1 p {
     font-size: 15px;
     opacity: .8;
+  }
+
+  .sect-3 .p-t {
+    font-size: 15px;
+  }
+
+  .brd-l-wrapper {
+    align-items: flex-start !important;
   }
 }
