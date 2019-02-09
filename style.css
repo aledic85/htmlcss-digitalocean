@@ -3,7 +3,7 @@
 }
 
 [color="blue"] {
-  background-color: #0069ff;
+  background-color: #051F9B;
 }
 
 [color="grey"] {
@@ -109,6 +109,23 @@ nav button {
   background-color: blue;
 }
 
+/* QUINTA SEZIONE */
+
+.sect-5 {
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-8227272d.svg");
+  background-position: 50%;
+}
+
+.city-cont {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #fff;
+}
+
+/* SESTA SEZIONE */
+
+
+
 @media screen and (max-width:992px) {
   .sect-1 h1 {
     font-size: 40px;
@@ -126,5 +143,9 @@ nav button {
 
   .brd-l-wrapper {
     align-items: flex-start !important;
+  }
+
+  .sect-5 span {
+    font-size: 12px;
   }
 }
