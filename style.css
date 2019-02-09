@@ -94,6 +94,21 @@ nav button {
 
 /* QUARTA SEZIONE */
 
+.sect-4 i {
+  font-size: 30px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
+
+.circle:first-child {
+  background-color: blue;
+}
+
 @media screen and (max-width:992px) {
   .sect-1 h1 {
     font-size: 40px;
